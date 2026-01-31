@@ -65,7 +65,7 @@ const [isAuthenticated, setIsAuthenticated] = useState(() => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === "gaming2024") {
+    if (password === "1nTh3$h4d0ws") {
       localStorage.setItem("adminAuth", "authenticated");
       setIsAuthenticated(true);
       loadData();
@@ -132,7 +132,7 @@ const [isAuthenticated, setIsAuthenticated] = useState(() => {
               </button>
             </form>
             <p className="text-gray-400 text-sm mt-4 text-center">
-              Contraseña por defecto: gaming2024
+              Ingresa tu contraseña
             </p>
           </div>
         </div>
