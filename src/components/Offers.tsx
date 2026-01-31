@@ -100,7 +100,7 @@ export default function Offers() {
   }, []);
 
   const handleOfferClick = (offerTitle: string) => {
-    const message = `Hola, me interesa la oferta: *${offerTitle}* de Gaming Digital.`;
+    const message = `Hola, me interesa la oferta: *${offerTitle}* de CodeX Digital.`;
     window.open(`https://wa.me/51932531871?text=${encodeURIComponent(message)}`, "_blank");
   };
 
@@ -163,7 +163,7 @@ export default function Offers() {
           <p className="text-gray-400 mb-4">¿No encuentras lo que buscas?</p>
           <button
             onClick={() => {
-              const message = "Hola, necesito una solución personalizada de Gaming Digital.";
+              const message = "Hola, necesito una solución personalizada de CodeX Digital.";
               window.open(`https://wa.me/51932531871?text=${encodeURIComponent(message)}`, "_blank");
             }}
             className="px-8 py-3 bg-transparent border-2 border-cyan-500 rounded-lg font-semibold text-cyan-400 hover:bg-cyan-500/10 transition-all duration-300"

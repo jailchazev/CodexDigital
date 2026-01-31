@@ -85,7 +85,7 @@ export default function Problems() {
         <div className="text-center">
           <div className="inline-block p-8 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-2xl border border-cyan-500/30 glow-box">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 gradient-text">
-              Gaming Digital convierte tu negocio en una máquina digital automatizada
+              CodeX Digital convierte tu negocio en una máquina digital automatizada
             </h3>
             <p className="text-lg text-gray-300">
               Dejamos atrás el caos y llevamos tu empresa a la era digital

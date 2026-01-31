@@ -7,7 +7,7 @@ const testimonials = [
     name: "Carlos Mendoza",
     company: "Seguridad Total SAC",
     role: "Gerente General",
-    text: "Gaming Digital transformó nuestra empresa. Antes todo era en Excel y WhatsApp, ahora tenemos un sistema que gestiona guardias, turnos y reportes automáticamente. Increíble.",
+    text: "CodeX Digital transformó nuestra empresa. Antes todo era en Excel y WhatsApp, ahora tenemos un sistema que gestiona guardias, turnos y reportes automáticamente. Increíble.",
     rating: 5,
     avatar: "👨‍💼",
   },
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Roberto Silva",
     company: "TechStore Perú",
     role: "Dueño",
-    text: "Necesitaba una tienda online profesional y Gaming Digital la entregó en tiempo récord. El panel de administración es súper fácil de usar. 100% recomendado.",
+    text: "Necesitaba una tienda online profesional y CodeX Digital la entregó en tiempo récord. El panel de administración es súper fácil de usar. 100% recomendado.",
     rating: 5,
     avatar: "👨‍💻",
   },
@@ -68,7 +68,7 @@ export default function Testimonials() {
             Lo Que Dicen Nuestros Clientes
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
-            Empresas reales que transformaron su negocio con Gaming Digital
+            Empresas reales que transformaron su negocio con CodeX Digital
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export default function Testimonials() {
           <p className="text-gray-400 mb-4">¿Quieres ser el próximo caso de éxito?</p>
           <button
             onClick={() => {
-              const message = "Hola, quiero transformar mi negocio con Gaming Digital.";
+              const message = "Hola, quiero transformar mi negocio con CodeX Digital.";
               window.open(`https://wa.me/51932531871?text=${encodeURIComponent(message)}`, "_blank");
             }}
             className="px-8 py-3 bg-transparent border-2 border-cyan-500 rounded-lg font-semibold text-cyan-400 hover:bg-cyan-500/10 transition-all duration-300"

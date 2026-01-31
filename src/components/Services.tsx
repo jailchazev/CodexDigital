@@ -98,7 +98,7 @@ export default function Services() {
   }, []);
 
   const handlePackageClick = (serviceTitle: string, packageName: string) => {
-    const message = `Hola, quiero el servicio *${serviceTitle}* – Plan *${packageName}* de Gaming Digital.`;
+    const message = `Hola, quiero el servicio *${serviceTitle}* – Plan *${packageName}* de CodeX Digital.`;
     window.open(`https://wa.me/51932531871?text=${encodeURIComponent(message)}`, "_blank");
   };
 

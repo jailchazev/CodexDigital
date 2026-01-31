@@ -125,7 +125,7 @@ export default function Process() {
         <div className="mt-12 text-center">
           <button
             onClick={() => {
-              const message = "Hola, quiero iniciar un proyecto con Gaming Digital.";
+              const message = "Hola, quiero iniciar un proyecto con CodeX Digital.";
               window.open(`https://wa.me/51932531871?text=${encodeURIComponent(message)}`, "_blank");
             }}
             className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold text-lg text-white transition-all duration-300 hover:scale-105 glow-box"

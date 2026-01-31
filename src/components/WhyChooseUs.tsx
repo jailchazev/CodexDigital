@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 gradient-text">
-            ¿Por Qué Elegir Gaming Digital?
+            ¿Por Qué Elegir CodeX Digital?
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
             Somos más que desarrolladores, somos tu socio tecnológico

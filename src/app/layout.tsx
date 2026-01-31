@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gaming Digital - Transformamos Negocios en Sistemas Digitales Inteligentes",
+  title: "CodeX Digital - Transformamos Negocios en Sistemas Digitales Inteligentes",
   description: "Desarrollo de páginas web, aplicaciones web a medida y apps móviles Android/iOS. Automatización y tecnología avanzada para empresas de seguridad, negocios locales y emprendedores.",
-  keywords: "desarrollo web, aplicaciones móviles, sistemas web, automatización, Gaming Digital, apps Android, apps iOS, páginas web Perú",
-  authors: [{ name: "Gaming Digital" }],
+  keywords: "desarrollo web, aplicaciones móviles, sistemas web, automatización, CodeX Digital, apps Android, apps iOS, páginas web Perú",
+  authors: [{ name: "CodeX Digital" }],
   openGraph: {
-    title: "Gaming Digital - Sistemas Digitales Inteligentes",
+    title: "CodeX Digital - Sistemas Digitales Inteligentes",
     description: "Transformamos negocios tradicionales en sistemas digitales automatizados",
     type: "website",
   },

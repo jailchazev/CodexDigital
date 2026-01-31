@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = () => {
-    window.open("https://wa.me/51932531871?text=Hola, quiero más información sobre Gaming Digital", "_blank");
+    window.open("https://wa.me/51932531871?text=Hola, quiero más información sobre CodeX Digital", "_blank");
   };
 
   return (
