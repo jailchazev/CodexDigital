@@ -104,7 +104,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-slide-up" style={{ animationDelay: "0.1s" }}>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 glow-text">
-            DodeX Digital
+            CodeX Digital
           </h1>
         </div>
 
