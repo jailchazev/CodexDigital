@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 import Problems from "@/components/Problems";
 import Services from "@/components/Services";
@@ -12,16 +12,26 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
-  	const mounted = typeof window !== "undefined";
-	
-  if (!mounted) return null;
+  // Evita mismatches si algún componente usa localStorage/window en el primer render
+  const [hydrated, setHydrated] = useState(false);
 
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
+  // Render estable (mismo contenedor siempre)
   return (
     <main className="min-h-screen bg-gray-900 text-white overflow-x-hidden">
       <Hero />
       <Problems />
-      <Services />
-      <Offers />
+
+      {hydrated && (
+        <>
+          <Services />
+          <Offers />
+        </>
+      )}
+
       <WhyChooseUs />
       <Process />
       <Testimonials />
