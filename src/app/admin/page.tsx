@@ -149,6 +149,12 @@ const [isAuthenticated, setIsAuthenticated] = useState(() => {
             <h1 className="text-2xl font-bold gradient-text">Panel de Administración</h1>
             <div className="flex gap-4">
               <button
+                onClick={() => router.push("/admin/sunat")}
+                className="px-4 py-2 bg-cyan-600 rounded-lg hover:bg-cyan-500 transition-colors duration-300"
+              >
+                Consulta SUNAT
+              </button>
+              <button
                 onClick={() => router.push("/")}
                 className="px-4 py-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors duration-300"
               >
