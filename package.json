@@ -1,11 +1,11 @@
 {
-  "name": "nextjs-template",
+  "name": "codexdigital",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^16.1.3",
