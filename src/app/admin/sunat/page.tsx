@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 
 type RecordData = Record<string, unknown>;
 
@@ -27,6 +27,13 @@ export default function SunatPrivatePage() {
   const [sourceDate, setSourceDate] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    fetch("/api/sunat/session", { cache: "no-store" })
+      .then((response) => response.json())
+      .then((result) => setAuthenticated(Boolean(result.authenticated)))
+      .catch(() => setAuthenticated(false));
+  }, []);
 
   async function login(event: FormEvent) {
     event.preventDefault(); setBusy(true); setError("");
